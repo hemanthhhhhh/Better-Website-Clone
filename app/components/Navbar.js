@@ -40,7 +40,6 @@ export default function Navbar({ colors }) {
                         <li className={`mx-12 ${color ? 'text-black' : 'text-white'}`}>HELOC</li>
                         <li className={`mx-12 ${color ? 'text-black' : 'text-white'}`}>Rates</li>
                         <li className={`mx-12 ${color ? 'text-black' : 'text-white'}`}>Better+</li>
-                        <li className="mx-12">
                         <li className={`${color ? 'text-black' : 'text-white'} mx-12`}>
                             <a href="/mortrage-calculator">
                                 Mortgage Calculator
