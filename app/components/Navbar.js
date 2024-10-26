@@ -41,9 +41,11 @@ export default function Navbar({ colors }) {
                         <li className={`mx-12 ${color ? 'text-black' : 'text-white'}`}>Rates</li>
                         <li className={`mx-12 ${color ? 'text-black' : 'text-white'}`}>Better+</li>
                         <li className="mx-12">
-                            <Link href="/mortgage-calculator" className={`${color ? 'text-black' : 'text-white'}`}>
+                        <li className={`${color ? 'text-black' : 'text-white'} mx-12`}>
+                            <a href="/mortrage-calculator">
                                 Mortgage Calculator
-                            </Link>
+                            </a>
+                        </li>
                         </li>
                     </ul>
                 </div>
