@@ -46,7 +46,6 @@ export default function Navbar({ colors }) {
                                 Mortgage Calculator
                             </a>
                         </li>
-                        </li>
                     </ul>
                 </div>
                 {/* Right side */}
