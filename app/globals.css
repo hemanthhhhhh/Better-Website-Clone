@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ * {
+  margin: 0;
+  padding: 0;
+ }
+
+ .bg-successBackground {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 247 241)
+ }
+
+ .bg-accentSecondary {
+  background-color: rgb(223 224 220);
+}
+
+ .text-backgroundInversePrimary {
+  color: rgb(7 49 38);
+}
+.bg-accentBorderInverseSecondary {
+  background-color: rgb(255 253 250);
+}
+
+ .text-interactivePrimary {
+  color: rgb(1 120 72);
+}
+ .shadow-accentBorderSecondary {
+  --tw-shadow-color: #017848;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+.border-strokeInverseBorder {
+  border-color: rgb(255 253 250);
+}
+.border-accentBorderSecondary {
+  border-color: rgb(1 120 72);
+}
+.border-strokeBorder {
+  border-color: rgb(164 168 164);
+}
+.custom-line {
+  line-height: 1.05;
+}
+
+ .text-interactiveSecondary {
+  color: rgb(232 234 230) 
+ }
+ 
+ .text-textInverseSecondary {
+  color: rgb(255 253 250);
+ }
+ .text-interactiveForegroundPrimary {
+  color: rgb(255 255 255);
+}
+
+.bg-accentPrimary {
+  background-color: rgb(0 71 51);
+}
+.text-textInversePrimary, .text-textInverseSecondary {
+  color: rgb(255 253 250);
+}
+
+.bg-accentBorderInverseSecondary {
+  background-color: rgb(255 253 250);
+}
+ .text-textPrimary {
+  color: rgb(41 43 41);
+}
+
+ .text-textSecondary {
+  color: rgb(86 93 90);
+}
+ .bg-accentPrimary {
+  background-color: rgb(0 71 51);
+ }
+
+ .bg-successBackground {
+  background-color: rgb(240 247 241);
+}
+.border-strokeDivider {
+  border-color: rgb(199 201 197);
+}
+
+.text-interactiveForegroundMuted {
+  color: rgb(111 118 114);
+}
+
+.bg-backgroundTertiary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255) 
+}
+
+ .bg-interactivePrimary {
+  background-color: rgb(1 120 72);
+}
+
+ .text-interactiveForegroundInversePrimary {
+  color: rgb(41 43 41);
+}
+
+.bg-graphTertiary {
+  background-color: rgb(30 224 127);
+}
+
+.line {
+  background: rgb(232, 234, 230);
+  border-radius: 2px;
+  height: 4px;
+  width: 80%;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.image-lady {
+  padding-bottom: 48px;
+  position: relative;
+  width: 48px;
+  margin-bottom: 10xp;
+}
+
+.image {
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    object-fit: contain;
+}
+
+.css-3js0wx {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  color: rgb(41, 43, 41);
+  display: flex;
+  flex-direction: row;
+  height: 64px;
+  justify-content: flex-start;
+  padding: 0px 24px;
+  text-align: left;
+  width: auto;
+  border: 1px solid rgb(164, 168, 164);
+  font-family: "Better Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  transition-duration: 300ms;
+  transition-property: background-color, color, box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0.8, 0.6, 1);
+}
+
+.css-3js0wx {
+    align-items: center;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    color: rgb(41, 43, 41);
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    justify-content: flex-start;
+    padding: 0px 24px;
+    text-align: left;
+    width: 35%;
+    border: 1px solid rgb(164, 168, 164);
+    font-family: "Better Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cust400 {
+  font-size: 14px;
+  color: rgb(86, 93, 90);
+  font-family: "Better Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+
+.aboutBox {
+  background-color: rgb(240, 247, 241);
+    border-radius: 0.5rem;
+    margin-top: 40px;
+    padding: calc(20px);
+    text-align: center;
+    width: auto;
+    height: 206px;
+}
+
+.text-textHighlight {
+  color: rgb(1 120 72);
+}
+
+.aboutBox:nth-child(1) {
+  color: rgb(86, 93, 90);
+    margin: 0px 0px 16px;
+    padding: 0px;
+    text-align: center;
+    width: auto;
+    font-family: "Better Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.aboutBox:nth-child(2)>p {
+  color: rgb(86, 93, 90);
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  width: auto;
+  font-family: "Better Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.bg-backgroundInverseSecondary {
+  background-color: rgb(1 120 72);
+}
